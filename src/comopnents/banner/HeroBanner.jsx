@@ -12,7 +12,7 @@ const HeroBanner = ({ heading, subtext, buttonText, subtext2}) => {
   }, []);
   return (
     <div
-      className="hero-banner darkTheme d-flex align-items-start overflow-hidden"
+      className="hero-banner darkTheme d-flex align-items-start overflow-hidden side "
 
     >
       <Container fluid className="text-center text-white position-relative cstmWidth " style={{zIndex:"2"}}>
